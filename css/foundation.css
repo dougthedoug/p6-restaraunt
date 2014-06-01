@@ -3,6 +3,11 @@
 	width: 75%;
 }
 
+#featured>img {
+	padding-right:35px;
+  width: 1000px;
+  height: auto; }
+
 .menu{
 	background:#A7120F;
 	color: #D9D5AF;
@@ -72,8 +77,6 @@ a:hover {
   cursor: pointer; }
 
 img {
-	padding-right:35px;
-  width: 1000px;
   height: auto; }
 
 img {
@@ -2657,16 +2660,18 @@ ul.pagination {
     display: block;
     margin-bottom: 0 !important; }
     .accordion dd.active > a {
-      background: #e8e8e8; }
+      background: white;
+	  color: #A7120F; }
     .accordion dd > a {
-      background: #efefef;
-      color: #222222;
+      background: #A7120F;
+      color: white;
       padding: 1rem;
       display: block;
       font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 1rem; }
       .accordion dd > a:hover {
-        background: #e3e3e3; }
+        background: white; 
+		color: #A7120F;}
   .accordion .content {
     display: none;
     padding: 0.9375rem; }
